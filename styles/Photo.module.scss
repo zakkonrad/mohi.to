@@ -1,0 +1,22 @@
+.photoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15vh;
+  .photoDescription {
+    font-family: Verdana, sans-serif;
+  }
+  .backToMainPageButton {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translate(-100%, 0);
+  }
+  .shareButton {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translate(100%, 0);
+  }
+}

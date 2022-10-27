@@ -1,0 +1,31 @@
+$base-color: #418bfa;
+
+.header {
+  color: $base-color;
+  font-family: Verdana, sans-serif;
+  font-size: 45px;
+  margin: 20vh auto 10vh;
+  text-align: center;
+  width: 100%;
+}
+
+.searchInputWrapper {
+  width: 100%;
+  text-align: center;
+  .searchInput {
+    margin: 0 auto 10vh;
+    width: 30%;
+    text-align: center;
+  }
+}
+
+.listItem {
+  .singlePhoto:hover {
+    filter: brightness(75%);
+    transition: 0.3s;
+  }
+  .listItemDescription {
+    display: inline;
+    text-align: center;
+  }
+}
